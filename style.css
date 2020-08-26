@@ -1,0 +1,44 @@
+/* 
+Arash Tabrizi
+Converter tool written in javascript & jquery , proof of concept can be used to automate manual calculations
+https://github.com/Arash-Tabrizi/JavaScript_Converter  
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+  background-color: #1A1E23;
+  position: relative;
+}
+
+#bodydiv{
+  width: 80%;
+  height: 80%;
+  border-radius: 5px;
+  background-color: #f1faee;
+  margin: auto;
+  padding: 1em;
+  display: grid;
+}
+
+#number{
+  width: 25%;
+  border-radius: 5px;
+}
+
+button{
+  padding: 1em;
+  margin: 1em;
+  border-radius: 5px;
+  font-family: Lato, sans-serif;
+  font-style: italic;
+  font-weight: 300;
+}
+
+button:hover{
+  border-color: #fff;
+}
+
+label{
+  font-family: Lato, sans-serif;
+}
